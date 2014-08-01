@@ -1,0 +1,78 @@
+package com.example.calculator1;
+
+import android.support.v7.app.ActionBarActivity;
+import android.support.v7.app.ActionBar;
+import android.support.v4.app.Fragment;
+import android.os.Bundle;
+import android.view.LayoutInflater;
+import android.view.Menu;
+import android.view.MenuItem;
+import android.view.View;
+import android.view.View.OnClickListener;
+import android.view.ViewGroup;
+import android.widget.Button;
+import android.widget.EditText;
+import android.widget.TextView;
+import android.os.Build;
+
+public class HomeScreen extends ActionBarActivity implements OnClickListener {
+	
+	// Declaration
+			 TextView tvNo1, tvNo2,tvResult;
+			 EditText etNo1, etNo2;
+			 Button btnadd, btnsubtract, btndivision, btnmultiplication;
+
+	@Override
+	protected void onCreate(Bundle savedInstanceState) {
+		super.onCreate(savedInstanceState);
+		setContentView(R.layout.homescreen);
+		// initializing
+		tvResult=(TextView)findViewById(R.id.tvResult);
+		
+		public void btnaddClicked(View v){
+		
+		
+		
+		etNo1=(EditText) findViewById(R.id.etNo1);
+		etNo2=(EditText) findViewById(R.id.etNo2);
+		
+	
+		
+		btnadd=(Button) findViewById(R.id.btnadd);
+		btnadd.setOnClickListener(this);
+		btnsubtract=(Button) findViewById(R.id.btnsubtract);
+		btnsubtract.setOnClickListener(this);
+		btndivision=(Button) findViewById(R.id.btndivision);
+		btndivision.setOnClickListener(this);
+		btnmultiplication=(Button) findViewById(R.id.btnmultiplication);
+		btnmultiplication.setOnClickListener(this);
+
+		btnadd=(Button) findViewById(R.id.btnadd);
+		btnadd.setOnClickListener(this);
+		
+	}
+		
+		@Override
+	public void onClick(View V) {
+		switch (V.getId()) {
+		case R.id.btnadd:
+			
+			break;
+		case R.id.btnsubtract:
+			
+			break;
+		case R.id.btndivision:
+		
+			break;
+		case R.id.btnmultiplication:
+			
+			break;
+			
+			
+
+		default:
+			break;
+		}
+		
+	}
+}

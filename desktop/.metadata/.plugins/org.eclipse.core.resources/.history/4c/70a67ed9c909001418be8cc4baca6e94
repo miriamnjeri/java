@@ -1,0 +1,55 @@
+package com.example.assign;
+
+import java.util.ArrayList;
+import java.util.Arrays;
+
+import com.example.thegreat.R;
+
+import android.support.v7.app.ActionBarActivity;
+import android.support.v7.app.ActionBar;
+import android.support.v4.app.Fragment;
+import android.R.string;
+import android.os.Bundle;
+import android.view.LayoutInflater;
+import android.view.Menu;
+import android.view.MenuItem;
+import android.view.View;
+import android.view.View.OnClickListener;
+import android.view.ViewGroup;
+import android.widget.ArrayAdapter;
+import android.widget.ListView;
+import android.os.Build;
+
+public class MainScreen extends ActionBarActivity implements OnClickListener {
+	private static final string[] Itemslist = null;
+	private ListView listview;
+	private ArrayAdapter<string> stringArrayAdapter;
+	String [] items= {"Addition", "Subtraction","Login form", "Counter", "Toast", "Countires"};
+
+	@Override
+	protected void onCreate(Bundle savedInstanceState) {
+		super.onCreate(savedInstanceState);
+		setContentView(R.layout.activity_main_screen);
+		//initialization
+				listview=(ListView) findViewById(R.id.items);
+				
+				ArrayList<String> itemlist= new ArrayList<String>();
+				itemlist.addAll(Arrays.asList(items));
+				
+				//Design the listView
+				stringArrayAdapter = new ArrayAdapter<string>(this,R.layout.mainscreen,Itemslist);
+		        listview.setAdapter(stringArrayAdapter);
+		        listview.setOnClickListener(this);
+
+		
+
+		
+	}
+
+	@Override
+	public void onClick(View arg0) {
+		
+		
+	}
+
+}

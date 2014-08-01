@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Assign</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_main_screen">MainScreen</string>
+    <string name="title_activity_addition">Addition</string>
+    <string name="btnadd">Add</string>
+    <string name="btnback">Back</string>
+    <string name="tvresult">Result</string>
+    <string name="tvnumber1">Number 1</string>
+    <string name="tvnumber2">Number 2</string>
+    <string name="etnumber1">Number1</string>
+    <string name="etnumber2">Number 2</string>
+    
+
+</resources>

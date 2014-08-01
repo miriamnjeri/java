@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    
+
+    <string name="app_name">Calcultor2</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_welcome">Welcome</string>
+    <string name="title_activity_login">Login</string>
+    <string name="title_activity_home_screen">HomeScreen</string>
+    <string name="title_activity_register">Register</string>
+    <string name="btnregister">Register</string>
+    <string name="btnlogin">Login</string>
+    <string name="btncancel">Cancel</string>
+    <string name="btnsubmit">submit</string>
+    <string name="btnadd">add</string>
+    <string name="btnsubtract">subtraction</string>
+    <string name="btnmultiply">multiplication</string>
+    <string name="btndivide">divide</string>
+    <string name="etno1">no 1</string>
+    <string name="etno2">no 2</string>
+    <string name="tvno1">no 1</string>
+    <string name="tvno2">no 2</string>
+    <string name="etfirstname">firstname</string>
+    <string name="etidnumber">idnumber</string>
+    <string name="etemail">email</string>
+     <string name="etpassword">password</string>
+    <string name="tvfirstname">firstname</string>
+    <string name="tvidnumber">idnumber</string>
+    <string name="tvemail">email</string>
+    <string name="tvpassword">password</string>
+    <string name="tvresult">result</string>
+    
+    <string name="country_prompt">choose a country</string>
+    <string-array name="country_array">
+    <item >kenya</item>
+    <item >Tanzania</item>
+    <item >Dubai</item>
+    <item >South africa</item>
+    <item >Rwanda</item>
+    <item >Burundi</item>
+    <item >Chad</item>
+    <item >Hangary</item>
+    </string-array>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+</resources>

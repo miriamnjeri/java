@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/Businessman" />
+
+    <TextView
+        android:id="@+id/userName"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/imageView1"
+        android:layout_marginTop="72dp"
+        android:text="@string/userName"
+        android:textSize="20sp"
+        android:gravity="center_horizontal" />
+
+    <TextView
+        android:id="@+id/phonenumber"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/userName"
+        android:layout_marginTop="15dp"
+        android:text="@string/phoneNumber"
+        android:textSize="20sp"
+        android:gravity="center_horizontal" />
+
+    <ImageButton
+        android:id="@+id/ibreceive"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/phonenumber"
+        android:layout_marginTop="58dp"
+        android:background="#e6fafc"
+        android:src="@drawable/big" 
+        />
+
+    <ImageButton
+        android:id="@+id/ibcall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/ibreceive"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="50dp"
+        android:background="#e6fafc"
+        android:src="@drawable/cance" />
+
+</RelativeLayout>
